@@ -497,8 +497,8 @@ font-family: "Roboto";
     max-width: 1920px;
     margin:0 auto;
     background-color: f4f4f4;
-    padding-top:55px;
-    padding-bottom: 55px;
+    padding-top:29px;
+    padding-bottom: 20px;
 }
 .blog{
     max-width: 1200px;
@@ -514,21 +514,26 @@ color: #141212;
 font-weight: 700;
 font-family: "Roboto";
 text-align: center;
+margin-bottom: 22px;
 }
-.blog-list{
-    margin-top: 35px;
+.blog-list {
+    margin-top: 42px;
 }
 .blog-list1{
-    display:flex;
+    width: 100%;
+display: flex;
+flex-wrap: wrap;
+margin-bottom: 0px;
 }
-.blog-list2{
-    display:flex;
-    margin-top: 40px;
+.blog-list1 img{
+    width: 95%;
 }
 .blog-list h2{
     font-size: 18px;
     font-weight: 700;
 font-family: "Roboto";
+margin-top: 22px;
+margin-bottom: -3px;
 }
 .blog-list p{
     font-size: 14px;
@@ -536,31 +541,39 @@ font-family: "Roboto";
 display: block;
 width: 357px;
 font-weight: 300;
+line-height: 26px;
+margin-bottom: 38px;
 
 }
 .bl1{
-    width:33.3%;
-    margin: 10px 15px;
+    width: 32.3%;
+margin: 0px 7px 0 8px;
+display: inline-block;
 }
 .bl2{
-    width:33.3%;
-    margin: 10px 15px;
+    width: 32.3%;
+margin: 0px 7px 0 6px;
+display: inline-block;
 }
 .bl3{
-    width:33.3%;
-    margin: 10px 15px;
+    width: 32.3%;
+margin: 0px 0px 0 7px;
+display: inline-block;
 }
 .bl4{
-    width:33.3%;
-    margin: 10px 15px;
+    width: 32.3%;
+    margin: 0px 7px 0 8px;
+    display: inline-block;
 }
 .bl5{
-    width:33.3%;
-    margin: 10px 15px;
+    width: 32.3%;
+margin: 0px 7px 0 6px;
+display: inline-block;
 }
 .bl6{
-    width:33.3%;
-    margin: 10px 15px;
+    width: 32.3%;
+margin: 0px 0px 0 7px;
+display: inline-block;
 }
 .foot-banner{
     background-repeat: no-repeat;
@@ -750,13 +763,13 @@ ul.policy-list{
     line-height: 2;
 }
 .ftl2 h2{
-    margin-bottom: 32px;
+    margin-bottom: 33px;
 }
 .ftl3 h2{
-    margin-bottom: 32px;
+    margin-bottom: 33px;
 }
 .ftl4 h2{
-    margin-bottom: 32px;
+    margin-bottom: 33px;
 }
 .info-list li{
     margin-bottom: 20px;
@@ -844,7 +857,8 @@ margin-top: 15px;
  ul.scroll{
     padding: 0;
     margin: 0;
-    float: right;
+    position: absolute;
+right: 0;
     display: flex;
     list-style: none;
     margin-bottom: 20px;
@@ -899,7 +913,7 @@ margin-top: 15px;
     position: absolute;
     top: 45%;
 }
-@media only screen and (max-width:1200px){
+@media only screen and (max-width:1240px){
     .top{
         width: 96%;
     }
@@ -931,36 +945,35 @@ margin-top: 15px;
 }
 @media only screen and (max-width:1250px){
     .foot-list{
-        overflow: hidden;
         display: block;
     }
     .ftl1{
-    width: 50%;
+    width: 38%;
     display: inline-block;
-    float: left;
+    position: relative;
+top: -15;
+    }
+    .ftl1 h2{
+        margin-top: 0;
     }
     .ftl2{
-        width: 25%;
-    float: none;
+        width: 20%;
     display: inline-block;
     }
     .ftl3
     {
-        float: right;
     display: inline-block;
-    width: 25%;
+    width: 20%;
     }
     .ftl4{
         display: inline-block;
-    width: 40%;
-    margin-top: 40px;
-    float: left;
+    width: 20%
     }
     .ftl5{
-        width: 50%;
+        width: 100%;
     display: inline-block;
-    float: right;
-    margin-top: 90px;
+    margin-top: 50px;
+    text-align: center;
     }
     input[type=text] {
         width: 200px;
@@ -968,6 +981,59 @@ margin-top: 15px;
     .right-list a.shopping-cart::before {
         margin-top: -0.7%;
         margin-left: 0.6%;
+    }
+}
+@media only screen and (max-width:1175px){
+    .bl1 {
+        width: 48%;
+        margin: 0;
+        display: inline-block;
+        text-align: center;
+    }
+    .bl2 {
+        width: 48%;
+        margin: 0;
+        display: inline-block;
+        text-align: center;
+    }
+    .bl3 {
+        width: 48%;
+        margin: 0;
+        display: inline-block;
+        text-align: center;
+    }
+    .bl4 {
+        width: 48%;
+        margin: 0;
+        display: inline-block;
+        text-align: center;
+    }
+    .bl5 {
+        width: 48%;
+        margin: 0;
+        display: inline-block;
+        text-align: center;
+    }
+    .bl6 {
+        width: 48%;
+        margin: 0;
+        display: inline-block;
+        text-align: center;
+    }
+    .blog-list1 {
+        width: 100%;
+        display: block;
+        margin-bottom: 0px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .blog-list1 img {
+        width: auto;
+    }
+    .blog-list p{
+        margin: 0 auto;
+    margin-top: 15px;
+    width: 65%;
     }
 }
 @media only screen and (max-width:1100px){
@@ -990,7 +1056,9 @@ margin-top: 15px;
     margin-top: 15px;
     padding: 0 15px 0 0;
 }
-
+img.arr4 {
+    margin-top: 22px;
+}
 li.s {
     padding-right: 0;
 }
@@ -1008,20 +1076,25 @@ li.s {
     margin-bottom: 20px;
 }
 .prod-list {
-    display: block;
+    display: flex;
+    flex-wrap: wrap;
     text-align: center;
     width: 100%;
+    margin-top: 0;
 }
 .pl1 {
-    width: 100%;
+    width: 50%;
     margin: 0 auto;
 }
 .pl2{
-    width: 100%;
+    width: 50%;
     margin: 0 auto;
 }
+.pl2 h1{
+    margin-top: 24px;
+}
 .pl3 {
-    width: 100%;
+    width: 50%;
     margin: 0 auto;
 }
 img.sub1 {
@@ -1029,7 +1102,7 @@ img.sub1 {
 }
 img.sub2 {
     width: auto;
-    margin-top: 50px;
+    margin-top: 52px;
 }
 img.sub3{
     width: auto;
@@ -1087,9 +1160,12 @@ margin: 0;
     width: auto;
 }
 .blog-list p {
-    width: 80%;
-    margin: 0 auto;
-}
+        width: 80%;
+        text-align: center;
+        margin: 0 auto;
+            margin-top: 0px;
+        margin-top: 15;
+    }
 .foot-ban-inner {
     padding-top: 50px;
     padding-bottom: 50px;
@@ -1141,6 +1217,7 @@ ul.fbl{
     margin-left: 0.7%;
 }
 }
+
 @media only screen and (max-width:900px){
     img.menu1{
         width: 35px;
@@ -1158,7 +1235,7 @@ ul.fbl{
         position: relative;
     }
     ul.right-list{
-        background: #f0c7c9eb;
+        background: #b3b1aceb;
         box-shadow: 0 5px 15px rgb(0 0 0 / 50%);
         position: absolute;
         top:100%;
@@ -1214,30 +1291,16 @@ ul.fbl{
         .three {
             font-size: 18px;
         }
-        img.sub1 {
-            width: 30%;
-        }
-        img.sub2 {
-            width: 30%;
-        }
-        img.sub3 {
-            width: 30%;
-        }
-        .prod-list {
-            margin-top: -9px;
-        }
         h3.price {
             font-size: 22px;
 
         }
-        .prod-list h1{
-            margin-top: 0px;
-        }
+
         .prod-list h4{
             margin-bottom: 15px;
         }
         img.sub2 {
-            margin-top: 30px;
+            margin-top: 52px;
         }
         img.blog1{
             width: 80%;
@@ -1267,26 +1330,32 @@ ul.fbl{
         .al1{
             margin: 0 auto;
     margin-top: 45px;
-    width: 30%;
+    width: 40%;
+    display: inline-block;
+    margin-right: 30px;
         }
         .al2{
             margin: 0 auto;
     margin-top: 30px;
-    width: 30%;
+    width: 40%;
+    display: inline-block;
         }
         .al3{
             margin: 0 auto;
     margin-top: 30px;
-    width: 30%;
+    width: 40%;
+    display: inline-block;
+    margin-right: 30px;
         }
         .al4{
             margin: 0 auto;
     margin-top: 30px;
-    width: 30%;
+    width: 40%;
     margin-bottom: 40px;
+    display: inline-block;
         }
         .arrival-list img {
-            width: 100%;
+            width: 70%;
         }
         img.arr1 {
          margin-top: 0px;
@@ -1303,6 +1372,23 @@ ul.fbl{
         img.arr4 {
             margin-top: 0px;
             margin-bottom: 0px;
+        }
+        .ftl1{
+            width: 50%;
+        }
+        .ftl2{
+            width: 24%;
+        }
+        .ftl3{
+            width: 24%;
+        }
+        .ftl4{
+            width: 25%;
+        }
+        .ftl5{
+            width: 70%;
+            float: right;
+            margin-top: 90px;
         }
     }
     @media only screen and (max-width:700px){
@@ -1476,9 +1562,6 @@ ul.fbl{
         .pl3{
             margin-top: -7px;
         }
-        img.sub2 {
-            margin-top: 20px;
-        }
         .foot-ban-inner {
             padding-top: 30px;
             padding-bottom: 30px;
@@ -1508,6 +1591,14 @@ ul.fbl{
         .ftl1 {
             width: 100%;
             text-align: center;
+            top: 0;
+        }
+        ul.contact-list{
+            margin: 0 auto;
+width: 62%;
+        }
+        .contact-list li {
+            text-align: initial;
         }
         .contact-list li {
             display: inline-flex;
@@ -1538,6 +1629,7 @@ ul.fbl{
             display: inline-block;
             margin-top: 20px;
             text-align: center;
+            float: none;
         }
         .contact-list p {
             margin-bottom: 0;
@@ -1603,7 +1695,7 @@ ul.fbl{
             padding: 15px;
         }
     }
-@media only screen and (max-width:500px){
+@media only screen and (max-width:576px){
     .top{
         padding: 2px 0;
     }
@@ -1614,6 +1706,9 @@ ul.fbl{
     .right-list a.shopping-cart::before {
         margin-top: -9px;
         margin-left: 13px;
+    }
+    img.menu1 {
+        margin-top: 16%;
     }
     .top-right {
         margin-top: 3px;
@@ -1677,8 +1772,21 @@ ul.fbl{
         width: 10px;
     }
     .main-last {
-        margin-top: 20px;
-        margin-bottom: 30px;
+        margin-top: 35px;
+        margin-bottom: 45px;
+    }
+    .prod-list {
+        display: block;
+    }
+    .pl1 {
+        width: 100%;
+    }
+    .pl2 {
+        width: 100%;
+    }
+    .pl3 {
+        width: 100%;
+        margin-top: 0;
     }
     .three {
         font-size: 12px;
@@ -1687,7 +1795,10 @@ ul.fbl{
         margin-bottom: 8px;
     }
     img.sub1 {
-        width: 35%;
+        width: 40%;
+    }
+    .prod-list h1 {
+        margin: 0 auto;
     }
     .prod-list h2 {
         font-size: 12px;
@@ -1702,11 +1813,17 @@ ul.fbl{
         margin: 4px 0;
     }
     img.sub2 {
-        margin-top: 10px;
-        width: 35%;
+        margin-top: 15px;
+        width: 40%;
     }
     img.sub3 {
-        width: 35%;
+        width: 40%;
+        z-index: -1;
+        position: relative;
+        margin-top: -15px;
+    }
+    .arrival-list{
+        width: 100%;
     }
     li.s {
         right: 30px;
@@ -1728,19 +1845,21 @@ ul.fbl{
         padding: 4px;
     }
     .al1 {
-        width: 45%;
+        width: 50%;
+        margin-right: 0;
     }
     .al2 {
-        width: 45%;
-        margin-top: 15px;
+        width: 50%;
+        margin-top: 20px;
     }
     .al3 {
-        width: 45%;
-        margin-top: 15px;
+        width: 50%;
+        margin-top: 20px;
+        margin-right: 0;
     }
     .al4 {
-        width: 45%;
-        margin-top: 15px;
+        width: 50%;
+        margin-top: 20px;
     }
     .foot-ban-inner {
         padding-top: 20px;
@@ -1817,17 +1936,22 @@ ul.fbl{
         margin-bottom: 15px;
     }
     .footbot-right img {
-        width: 80%;
-        margin-top: 6px;
+        width: 25%;
+margin-top: 10px;
+float: none;
     }
     .footbot-right {
-        width: 45%;
+        width: 100%;
+text-align: center;
+
     }
     .footbot-left {
-        width: 55%;
+        width: 100%;
+text-align: center;
     }
     .footbot-left p {
         font-size: 12px;
+        text-align: center;
     }
     .blog-text h1 {
         font-size: 26px;
