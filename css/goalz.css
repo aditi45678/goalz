@@ -575,6 +575,21 @@ display: inline-block;
 margin: 0px 0px 0 7px;
 display: inline-block;
 }
+.blog1:hover {
+    filter: grayscale(75%);
+    transition: 0.5s ease-in-out;
+}
+.blog2:hover {
+    filter: grayscale(75%);
+    transition: 0.5s ease-in-out;
+}
+.blog3:hover {
+    filter: grayscale(75%);
+    transition: 0.3s ease-in-out;
+}
+
+
+
 .foot-banner{
     background-repeat: no-repeat;
     background-size: cover;
@@ -989,36 +1004,42 @@ top: -15;
         margin: 0;
         display: inline-block;
         text-align: center;
+        padding: 20px 0;
     }
     .bl2 {
         width: 48%;
         margin: 0;
         display: inline-block;
         text-align: center;
+        padding: 20px 0;
     }
     .bl3 {
         width: 48%;
         margin: 0;
         display: inline-block;
         text-align: center;
+        padding: 20px 0;
     }
     .bl4 {
         width: 48%;
         margin: 0;
         display: inline-block;
         text-align: center;
+        padding: 20px 0;
     }
     .bl5 {
         width: 48%;
         margin: 0;
         display: inline-block;
         text-align: center;
+        padding: 20px 0;
     }
     .bl6 {
         width: 48%;
         margin: 0;
         display: inline-block;
         text-align: center;
+        padding: 20px 0;
     }
     .blog-list1 {
         width: 100%;
@@ -1114,58 +1135,6 @@ img.sub3{
 .arrival-text h1 {
     margin-bottom: 0px;
 }
-.latest-blog {
-    padding-top: 50px;
-    padding-bottom: 50px;
-}
-.blog-text h1 {
-margin: 0;
-}
-.blog-list{
-    overflow: hidden;
-}
-.blog-list1 {
-    display: block;
-    width: 50%;
-    float: left;
-    text-align: center;
-}
-.bl1 {
-    width: auto;
-}
-.bl2 {
-    width: auto;
-    margin-top: 40px;
-    margin-bottom: 40px;
-}
-.bl3 {
-    width: auto;
-}
-.blog-list2 {
-    display: block;
-    width: 50%;
-    float: right;
-    text-align: center;
-    margin-top: 0;
-}
-.bl4 {
-    width: auto;
-}
-.bl5 {
-    width: auto;
-    margin-top: 40px;
-    margin-bottom: 40px;
-}
-.bl6 {
-    width: auto;
-}
-.blog-list p {
-        width: 80%;
-        text-align: center;
-        margin: 0 auto;
-            margin-top: 0px;
-        margin-top: 15;
-    }
 .foot-ban-inner {
     padding-top: 50px;
     padding-bottom: 50px;
@@ -1498,14 +1467,14 @@ ul.fbl{
             margin-bottom: 30px;
         }
         .latest-blog {
-            padding-top: 30px;
-            padding-bottom: 30px;
+            padding-top: 20px;
+            padding-bottom: 20px;
         }
         .blog-list {
-            margin-top: 20px;
+            margin-top: 10px;
         }
         .blog-list h2 {
-            font-size: 14px;
+            font-size: 12px;
         }
         .blog-list p {
     font-size: 12px;
@@ -1531,10 +1500,10 @@ ul.fbl{
             padding: 20px 0;
         }
         .bl5 p{
-            margin-top: 26px;
+            margin-top: 15px;
         }
         .bl3 p{
-            margin-top: 26px;
+            margin-top: 15px;
         }
         .bl6{
             margin: 0;
@@ -1695,7 +1664,7 @@ width: 62%;
             padding: 15px;
         }
     }
-@media only screen and (max-width:576px){
+@media only screen and (max-width:578px){
     .top{
         padding: 2px 0;
     }
@@ -1953,29 +1922,36 @@ text-align: center;
         font-size: 12px;
         text-align: center;
     }
+    .latest-blog {
+        padding-top: 5px;
+        padding-bottom: 10px;
+    }
     .blog-text h1 {
         font-size: 26px;
+        margin-bottom: 5px;
     }
     .blog-list {
         margin-top: 0;
     }
     .blog-list h2 {
         font-size: 12px;
+        margin-top: 15px;
+margin-bottom: 3px;
     }
     .blog-list p {
-        width: 90%;
+        width: 75%;
         margin: 0 auto;
-    }
-    .bl1 p {
-        margin-top: 26px;
-    }
-    .bl3 p {
-     margin-top: 0px;
-    }
-    .bl5 p {
-        margin-top: 26px;
+        margin-top: 8px;
+        line-height: 20px;
     }
     .fa.fa-chevron-up {
         padding: 10px;
+    }
+    .bl1,.bl2,.bl3,.bl4,.bl5,.bl6{
+        width: 100%;
+        padding: 10px 0;
+    }
+    .blog-list1 img{
+        width: 75%;
     }
 }
