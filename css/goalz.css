@@ -616,6 +616,7 @@ background: #efb001!important;
 }
 .owl-carousel img.blog2, img.blog6{
     width: 82% !important;
+    width: 100% !important;
 }
 .foot-banner{
     background-repeat: no-repeat;
