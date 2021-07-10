@@ -614,10 +614,9 @@ display: inline-block;
 .owl-dot:active{
 background: #efb001!important;
 }
-.owl-carousel img.blog2{
-    width: 96%!important;
+.owl-carousel img.blog2, img.blog6{
+    width: 82% !important;
 }
-
 .foot-banner{
     background-repeat: no-repeat;
     background-size: cover;
@@ -957,6 +956,15 @@ right: 0;
     top: 45%;
 }
 @media only screen and (max-width:1240px){
+    .owl-carousel .bl1,.bl2, .bl3,.bl4,.bl5,.bl6{
+        width: auto !important;
+        margin-right: 20px!important;
+        margin-left: 20px!important;
+    }
+    .owl-carousel p{
+        text-align: start;
+    width: 100%!important;
+    }
     .top{
         width: 96%;
     }
@@ -987,6 +995,15 @@ right: 0;
     }
 }
 @media only screen and (max-width:1250px){
+    .owl-carousel .bl1,.bl2, .bl3,.bl4,.bl5,.bl6{
+        width: auto !important;
+        margin-right: 20px!important;
+        margin-left: 20px!important;
+    }
+    .owl-carousel p{
+        text-align: start;
+    width: 100%!important;
+    }
     .foot-list{
         display: block;
     }
@@ -1096,6 +1113,15 @@ top: -15;
     }
 }
 @media only screen and (max-width:1100px){
+    .owl-carousel .bl1,.bl2, .bl3,.bl4,.bl5,.bl6{
+        width: auto !important;
+        margin-right: 20px!important;
+        margin-left: 20px!important;
+    }
+    .owl-carousel p{
+        text-align: start;
+    width: 100%!important;
+    }
     .bottom {
         min-height: auto;
         padding: 15px 0;
@@ -1226,6 +1252,15 @@ ul.fbl{
 }
 
 @media only screen and (max-width:900px){
+    .owl-carousel .bl1,.bl2, .bl3,.bl4,.bl5,.bl6{
+        width: auto !important;
+        margin-right: 20px!important;
+        margin-left: 20px!important;
+    }
+    .owl-carousel p{
+        text-align: start;
+    width: 100%!important;
+    }
     img.menu1{
         width: 35px;
     margin-right: 20px;
@@ -1399,6 +1434,15 @@ ul.fbl{
         }
     }
     @media only screen and (max-width:700px){
+        .owl-carousel .bl1,.bl2, .bl3,.bl4,.bl5,.bl6{
+            width: auto !important;
+            margin-right: 20px!important;
+            margin-left: 20px!important;
+        }
+        .owl-carousel p{
+            text-align: start;
+        width: 100%!important;
+        }
         img.menu1 {
             width: 30px;
             height: 30px;
@@ -1703,6 +1747,15 @@ width: 62%;
         }
     }
 @media only screen and (max-width:578px){
+    .owl-carousel .bl1,.bl2, .bl3,.bl4,.bl5,.bl6{
+        width: auto !important;
+        margin-right: 20px!important;
+        margin-left: 20px!important;
+    }
+    .owl-carousel p{
+        text-align: start;
+    width: 100%!important;
+    }
     .top{
         padding: 2px 0;
     }
